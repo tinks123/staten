@@ -1,7 +1,7 @@
 // Función para leer y mostrar contenido de archivos CSV
 function mostrarContenidoCSV(archivo, contenedorId) {
     // Ruta del archivo CSV
-    const rutaArchivo = `archivos/${archivo}.csv`;
+    const rutaArchivo = `${archivo}.csv`; // Aquí asumimos que el archivo está en el mismo directorio que index.html
 
     // Fetch para obtener el contenido del archivo CSV
     fetch(rutaArchivo)
